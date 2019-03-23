@@ -1,518 +1,461 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-
-	<title>Material Design Bootstrap</title>
-
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-	<!-- Bootstrap core CSS -->
-	<link href="https://mdbootstrap.com/previews/templates/portfolio/css/bootstrap.min.css" rel="stylesheet">
-
-	<!-- Material Design Bootstrap -->
-	<link href="https://mdbootstrap.com/previews/templates/portfolio/css/mdb.min.css" rel="stylesheet">
-
-    <style>
-        html,
-        body,
-        header,
-        .jarallax {
-          height: 100%;
-        }
-    </style>
-
- 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Arch Angel Literature</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+     <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
+     <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/mdb.min.css">
+     <!-- Styles -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/custom.css">
 </head>
+<body class="fixed-sn black-skin">
 
-<body class="architect">
-
-    <!--Navigation & Intro-->
+    <!--Double navigation-->
     <header>
-
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-            <div class="container">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav mr-auto smooth-scroll">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about" data-offset="90">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio" data-offset="30">Portfolio</a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact" data-offset="100">Contact</a>
-                        </li>
-                    </ul>
-                    <!-- Social Icon  -->
-                    <ul class="navbar-nav nav-flex-icons">
-                        <li class="nav-item">
-                            <a class="nav-link"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"><i class="fa fa-instagram"></i></a>
-                        </li>
-                    </ul>
-                </div>
+      <!-- Sidebar navigation -->
+      <div id="slide-out" class="side-nav sn-bg-4 fixed">
+        <ul class="custom-scrollbar">
+          <!-- Logo -->
+          <li>
+            <div class="logo-wrapper waves-light">
+              <a href="#"><img src="img/books_quill.png" class="img-fluid flex-center"></a>
             </div>
-        </nav>
-
-        <!-- Intro Section -->
-        <div id="home" class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/People/full%20page/img%20%2827%29.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
-            <div class="mask rgba-black-slight">
-                <div class="container h-100 d-flex justify-content-start align-items-center">
-                    <div class="row smooth-scroll">
-                        <div class="col-md-12">
-                            <div class="wow fadeInUp">
-                                <h2 class="display-3 font-weight-bold mb-3">Archangel Literature</h2>
-                                <h4 class="text-uppercase font-weight-bold pb-5">Architect</h4>
-                                <h2 class=" mt-3">Welcome to my portfolio!</h2>
-                            </div>
-                        </div>
-                    </div>
+          </li>
+          <!--/. Logo -->
+          <!--Social-->
+          <li>
+            <ul class="social">
+              <li><a href="#" class="icons-sm fb-ic"><i class="fab fa-facebook-f"> </i></a></li>
+              <li><a href="#" class="icons-sm pin-ic"><i class="fab fa-pinterest"> </i></a></li>
+              <li><a href="#" class="icons-sm gplus-ic"><i class="fab fa-google-plus-g"> </i></a></li>
+              <li><a href="#" class="icons-sm tw-ic"><i class="fab fa-twitter"> </i></a></li>
+            </ul>
+          </li>
+          <!--/Social-->
+          <!--Search Form-->
+          <li>
+            <form class="search-form" role="search">
+              <div class="form-group md-form mt-0 pt-1 waves-light">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+            </form>
+          </li>
+          <!--/.Search Form-->
+          <!-- Side navigation links -->
+          <li>
+            <ul class="collapsible collapsible-accordion">
+              <li><a class="collapsible-header waves-effect arrow-r"><i class="fas fa-chevron-right"></i> Submit blog<i
+                    class="fas fa-angle-down rotate-icon"></i></a>
+                <div class="collapsible-body">
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="waves-effect">Submit listing</a>
+                    </li>
+                    <li><a href="#" class="waves-effect">Registration form</a>
+                    </li>
+                  </ul>
                 </div>
-            </div>
+              </li>
+              <li><a class="collapsible-header waves-effect arrow-r"><i class="fas fa-hand-pointer"></i> Instruction<i
+                    class="fas fa-angle-down rotate-icon"></i></a>
+                <div class="collapsible-body">
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="waves-effect">For bloggers</a>
+                    </li>
+                    <li><a href="#" class="waves-effect">For authors</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li><a class="collapsible-header waves-effect arrow-r"><i class="fas fa-eye"></i> About<i class="fas fa-angle-down rotate-icon"></i></a>
+                <div class="collapsible-body">
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="waves-effect">Introduction</a>
+                    </li>
+                    <li><a href="#" class="waves-effect">Monthly meetings</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li><a class="collapsible-header waves-effect arrow-r"><i class="far fa-envelope"></i> Contact me<i class="fas fa-angle-down rotate-icon"></i></a>
+                <div class="collapsible-body">
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="waves-effect">FAQ</a>
+                    </li>
+                    <li><a href="#" class="waves-effect">Write a message</a>
+                    </li>
+                    <li><a href="#" class="waves-effect">FAQ</a>
+                    </li>
+                    <li><a href="#" class="waves-effect">Write a message</a>
+                    </li>
+                    <li><a href="#" class="waves-effect">FAQ</a>
+                    </li>
+                    <li><a href="#" class="waves-effect">Write a message</a>
+                    </li>
+                    <li><a href="#" class="waves-effect">FAQ</a>
+                    </li>
+                    <li><a href="#" class="waves-effect">Write a message</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <!--/. Side navigation links -->
+        </ul>
+        <div class="sidenav-bg mask-strong"></div>
+      </div>
+      <!--/. Sidebar navigation -->
+      <!-- Navbar -->
+      <nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg scrolling-navbar double-nav">
+        <!-- SideNav slide-out button -->
+        <div class="float-left">
+          <a href="#" data-activates="slide-out" class="button-collapse black-text"><i class="fas fa-bars"></i></a>
         </div>
-
+        <!-- Breadcrumb-->
+        <div class="breadcrumb-dn mr-auto">
+          <p>
+            <marquee behavior="scroll" direction="left" class="header-text text-secondary">Arch Angel Literature
+            </marquee>
+          </p>
+        </div>
+        <ul class="nav navbar-nav nav-flex-icons ml-auto">
+          <li class="nav-item">
+            <a class="nav-link"><i class="fas fa-envelope"></i> <span class="clearfix d-none d-sm-inline-block">Contact</span></a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link"><i class="fas fa-user"></i> <span class="clearfix d-none d-sm-inline-block">Account</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.Navbar -->
     </header>
-    <!--/Navigation & Intro-->
+    <!--/.Double navigation-->
 
     <!--Main layout-->
     <main>
-        
-        <div class="container-fluid" style="background-color: #323438;">
-    
-            <!-- First container -->
-            <div class="container pt-3">
-                
-                <!-- Section About -->
-                <section id="about" class="section pt-2 pb-5">
-                    
-                    <!--Secion heading-->
-                    <h1 class="text-center white-text text-uppercase font-weight-bold mt-5 mb-3 mt-4 wow fadeIn" data-wow-delay="0.2s">About me</h1>
-                    
-                    <!--Section description-->
-                    <p class="text-center white-text text-uppercase font-weight-bold  wow fadeIn" data-wow-delay="0.2s">All about my passion</p>
-                    <div class="line wow fadeIn" data-wow-delay="0.2s"></div>
-                    
-                    <!-- First row -->
-                    <div class="row mt-5 pt-5">
 
-                        <!--First column-->
-                        <div class="col-lg-5 col-md-12 mb-5 wow fadeIn" data-wow-delay="0.4s">
-                            
-                            <!--Image-->
-                            <img src="https://mdbootstrap.com/img/Others/121.jpg" class="img-fluid z-depth-1" alt="My photo">
-                        
-                        </div>
-                        <!--/First column-->
+      <div class="container-fluid text-center">
+        <!-- Grid row -->
+        <div class="row">
 
-                        <!--Second column-->
-                        <div class="col-lg-6 offset-lg-1 col-md-12 wow fadeIn" data-wow-delay="0.4s">
+          <!-- Grid column -->
+          <div class="col-md-12 mb-3">
 
-                            <!--Description-->
-                            <p class="grey-text mb-4" align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo animi soluta ratione quisquam, dicta ab cupiditate iure eaque? Repellendus voluptatum, magni impedit eaque delectus, beatae maxime temporibus maiores quibusdam quasi.Rem magnam ad perferendis iusto sint tempora ea voluptatibus iure, animi excepturi modi aut possimus in hic molestias repellendus illo ullam odit quia velit. Rem magnam ad perferendis iusto sint tempora ea voluptatibus iure, animi excepturi modi aut possimus in hic molestias repellendus illo ullam odit quia velit. Qui expedita sit quo, maxime.</p>
+            <img src="https://github.com/cwilliams3579/Choosen-uploads/blob/master/s3.png?raw=true"
+              class="img-fluid z-depth-1"
+              alt="Responsive image" style="width:1231px; height:534px;">
 
-                            <a class="btn btn btn-outline-white waves-effect">Read more</a>
-                        </div>
-                        <!--/Second column-->
-                    
-                    </div>
-                    <!-- /.First row -->
-                
-                </section>
-            
-            <!-- /.Section About -->
-            </div>
-        
+          </div>
+          <!-- Grid column -->
+
         </div>
-        <!-- /.First container -->
+        <!-- Grid row -->
 
-        <!-- Second container -->
-        <div class="container">
+        <!-- Grid row -->
+        <div class="row">
 
-            <!-- Second section -->
-            <section id="services" class="section feature-box pt-3 pb-4">
-                
-                <!--Secion heading-->
-                <h1 class="text-center text-uppercase font-weight-bold  mt-5 mb-3 mt-4 wow fadeIn" data-wow-delay="0.2s">What i do</h1>
-                
-                <!--Section description-->
-                <p class="text-center  text-uppercase font-weight-bold  wow fadeIn" data-wow-delay="0.2s">All about my work</p>
-                <div class="line  wow fadeIn" data-wow-delay="0.2s"></div>
+          <!-- Grid column -->
+          <div class="col-lg-4 col-md-12 mb-3">
 
-                <!--First row-->
-                <div class="row my-5 pt-4 wow fadeIn" data-wow-delay="0.2s">
-                    
-                    <div class="col-lg-3 col-md-6 text-center pt-4">
-                        <div class="icon-area">
-                            <div class="circle-icon">
-                                <i class="fa fa-pencil"></i>
+            <img src="https://github.com/cwilliams3579/Choosen-uploads/blob/master/s2.jpg?raw=true"
+              class="img-fluid z-depth-1" alt="Responsive image" style="width:390px; height:260px;">
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-lg-4 col-md-6 mb-3">
+
+            <img src="https://github.com/cwilliams3579/Choosen-uploads/blob/master/s2.jpg?raw=true"
+              class="img-fluid z-depth-1" alt="Responsive image" style="width:390px; height:260px;">
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-lg-4 col-md-6 mb-3">
+
+            <img src="https://github.com/cwilliams3579/Choosen-uploads/blob/master/s2.jpg?raw=true"
+              class="img-fluid z-depth-1" alt="Responsive image" style="width:390px; height:260px;">
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-md-6 mb-3">
+
+            <img src="https://github.com/cwilliams3579/Choosen-uploads/blob/master/slavery.jpg?raw=true"
+              class="img-fluid z-depth-1" alt="Responsive image" style="width: 601px; height: 400px;">
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-6 mb-3">
+
+            <img src="https://github.com/cwilliams3579/Choosen-uploads/blob/master/slavery.jpg?raw=true"
+              class="img-fluid z-depth-1" alt="Responsive image" style="width: 601px; height: 400px;">
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+        <!-- Section: Products v.4 -->
+        <section class="text-center my-5">
+
+            <!-- Section heading -->
+            <h2 class="h1-responsive font-weight-bold text-center my-5">Bestsellers</h2>
+            <!-- Section description -->
+            <p class="grey-text text-center w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi.</p>
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
+                    <!-- Collection card -->
+                    <div class="card collection-card z-depth-1-half">
+                        <!-- Card image -->
+                        <div class="view zoom">
+                            <img src="https://pbs.twimg.com/media/CzFw1O0XAAETZPD.jpg"
+                                class="img-fluid" alt="" style="width: 285px; height: 428px;">
+                            <div class="stripe dark">
+                                <a>
+                                    <p>Israelites
+                                        <i class="fas fa-angle-right"></i>
+                                    </p>
+                                </a>
                             </div>
-                            <br>
-                            <strong>PROJECT</strong>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident.</p>
                         </div>
+                        <!-- Card image -->
                     </div>
-                   
-                    <div class="col-lg-3 col-md-6 text-center pt-4">
-                        <div class="icon-area">
-                            <div class="circle-icon">
-                                <i class="fa fa-home"></i>
-                            </div>
-                            <br>
-                            <strong>CONSTRUCTION</strong>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident.</p>
-                        </div>
-                    </div>   
-                        
-                    <div class="col-lg-3 col-md-6 text-center pt-4">
-                        <div class="icon-area">
-                            <div class="circle-icon">
-                                <i class="fa fa-paint-brush"></i>
-                            </div>
-                            <br>
-                            <strong>DESIGN</strong>
-                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-3 col-md-6 text-center pt-4">
-                        <div class="icon-area">
-                            <div class="circle-icon">
-                                <i class="fa fa-laptop"></i>
-                            </div>
-                            <br>
-                            <strong>VISUALIZATON</strong>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident.</p>
-                        </div>
-                    </div>
-
+                    <!-- Collection card -->
                 </div>
-                <!--/First row-->
+                <!-- Grid column -->
 
-            </section>
-            <!-- /.Second section -->
-
-        </div>
-        <!--/Second container-->    
-    
-        <!--Third container-->    
-        <div class="container-fluid" style="background-color: #e8eaec;">
-
-            <div class="container-fluid">
-
-                <!--Section: Main portfolio-->
-                <section id="portfolio" class="section pt-3 pb-3">
-
-                    <h1 class="text-center text-uppercase font-weight-bold mt-5 mb-3 mt-5 wow fadeIn" data-wow-delay="0.2s">My projects</h1>
-            
-                    <!--Section description-->
-                    <p class="text-center w-responsive mx-auto text-uppercase font-weight-bold wow fadeIn" data-wow-delay="0.2s">All about my work</p>
-                    <div class="line line-v2 wow fadeIn" data-wow-delay="0.2s"></div>
-                       
-                    <!--Section description-->
-                    <p class="text-center w-responsive mx-auto my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. At ab ea a molestiae corrupti numquam quo beatae minima ratione magni accusantium repellat eveniet quia vitae.</p>
-
-                    <!--First row-->
-                    <div class="row ml-3 mr-3 pb-4 pt-1 wow fadeIn" data-wow-delay="0.4s">
-
-                        <!--First column-->
-                        <div class="col-md-12">
-
-                            <div id="mdb-lightbox-ui"></div>
-
-                            <!--Full width lightbox-->
-                            <div class="mdb-lightbox">
-
-                                <figure class="col-md-3">
-                                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(135).jpg" data-size="1600x1067"> 
-                                        <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(135).jpg" class="img-fluid z-depth-1"> </a>
-                                    <p class="text-uppercase font-weight-bold blue-grey-text mt-4">| Lorem ipsum dolor sit amet</p>
-                                </figure>
-
-                               <figure class="col-md-3">
-                                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(128).jpg" data-size="1600x1067"> 
-                                        <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(128).jpg" class="img-fluid z-depth-1"> </a>
-                                    <p class="text-uppercase font-weight-bold blue-grey-text mt-4">| Lorem ipsum dolor sit amet</p>
-                                </figure>
-                                
-                                <figure class="col-md-3">
-                                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(133).jpg" data-size="1600x1067"> 
-                                        <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(133).jpg" class="img-fluid z-depth-1"> </a>
-                                    <p class="text-uppercase font-weight-bold blue-grey-text mt-4">| Lorem ipsum dolor sit amet</p>
-                                </figure>
-                               
-                                <figure class="col-md-3">
-                                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(131).jpg" data-size="1600x1067"> 
-                                        <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(131).jpg" class="img-fluid z-depth-1"> </a>
-                                    <p class="text-uppercase font-weight-bold blue-grey-text mt-4">| Lorem ipsum dolor sit amet</p>
-                                </figure>
-
-                                <figure class="col-md-3">
-                                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(130).jpg" data-size="1600x1067"> 
-                                        <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(130).jpg" class="img-fluid z-depth-1"> </a>
-                                    <p class="text-uppercase font-weight-bold blue-grey-text mt-4">| Lorem ipsum dolor sit amet</p>
-                                </figure>
-                                
-                                <figure class="col-md-3">
-                                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(132).jpg" data-size="1600x1067"> 
-                                        <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(132).jpg" class="img-fluid z-depth-1"> </a>
-                                    <p class="text-uppercase font-weight-bold blue-grey-text mt-4">| Lorem ipsum dolor sit amet</p>
-                                </figure>
-                                
-                                <figure class="col-md-3">
-                                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(134).jpg" data-size="1600x1067"> 
-                                        <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(134).jpg" class="img-fluid z-depth-1"> </a>
-                                    <p class="text-uppercase font-weight-bold blue-grey-text mt-4">| Lorem ipsum dolor sit amet</p>
-                                </figure>
-                                
-                                <figure class="col-md-3">
-                                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(1).jpg" data-size="1600x1067"> 
-                                        <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(1).jpg" class="img-fluid z-depth-1"> </a>
-                                    <p class="text-uppercase font-weight-bold blue-grey-text mt-4">| Lorem ipsum dolor sit amet</p>
-                                </figure>
-                               
-                            </div>
-                            <!--/Full width lightbox-->
-
-                        </div>
-                        <!--/First column-->
-                        
-                        <div class="row pt-5 mb-4 center-text">
-                            <div class="col-md-12"> 
-                                <a class="btn btn-outline-black waves-effect"><strong>more</strong></a> 
+                <!-- Grid column -->
+                <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
+                    <!-- Collection card -->
+                    <div class="card collection-card z-depth-1-half">
+                        <!-- Card image -->
+                        <div class="view zoom">
+                            <img src="https://pbs.twimg.com/media/CzFw1O0XAAETZPD.jpg"
+                                class="img-fluid" alt="" style="width: 285px; height: 428px;">
+                            <div class="stripe light">
+                                <a>
+                                    <p>Israelites
+                                        <i class="fas fa-angle-right"></i>
+                                    </p>
+                                </a>
                             </div>
                         </div>
-                        
+                        <!-- Card image -->
                     </div>
-                    <!--/First row-->
+                    <!-- Collection card -->
+                </div>
+                <!-- Grid column -->
 
-                </section>
-                <!--/Section: Main portfolio-->   
+                <!-- Grid column -->
+                <div class="col-lg-3 col-md-6 mb-md-0 mb-4">
+                    <!-- Collection card -->
+                    <div class="card collection-card z-depth-1-half">
+                        <!-- Card image -->
+                        <div class="view zoom">
+                            <img src="https://pbs.twimg.com/media/CzFw1O0XAAETZPD.jpg"
+                                class="img-fluid" alt="" style="width: 285px; height: 428px;">
+                            <div class="stripe dark">
+                                <a>
+                                    <p>Israelites
+                                        <i class="fas fa-angle-right"></i>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Card image -->
+                    </div>
+                    <!-- Collection card -->
+                </div>
+                <!-- Grid column -->
+
+                <!-- Fourth column -->
+                <div class="col-lg-3 col-md-6 mb-md-0 mb-4">
+                    <!-- Collection card -->
+                    <div class="card collection-card z-depth-1-half">
+                        <!-- Card image -->
+                        <div class="view zoom">
+                            <img src="https://pbs.twimg.com/media/CzFw1O0XAAETZPD.jpg"
+                                class="img-fluid" alt="" style="width: 285px; height: 428px;">
+                            <div class="stripe light">
+                                <a>
+                                    <p>Israelites
+                                        <i class="fas fa-angle-right"></i>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Card image -->
+                    </div>
+                    <!-- Collection card -->
+                </div>
+                <!-- Fourth column -->
 
             </div>
+            <!-- Grid row -->
 
-        </div>
-        <!--/Third container-->  
-            
-        <!--Streak-->
-        <div class="streak streak-photo streak-md" style="background-image:url('https://mdbootstrap.com/img/Photos/Horizontal/City/12-col/img%20%2822%29.jpg')">
-            <div class="mask flex-center rgba-stylish-strong">
-                <div class="white-text smooth-scroll wow fadeIn" data-wow-delay="0.2s">
-                   <h3 class="text-center h3-responsive mb-5"><i class="fa fa-quote-left" aria-hidden="true"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        <i class="fa fa-quote-right" aria-hidden="true"></i></h3>
-                   <h5 class="text-center font-italic wow fadeIn" data-wow-delay="0.2s">~ Erich Fromm</h5>
-                </div>
-            </div>
-        </div>
-        <!--/Streak-->
-            
-        <!--Fourth container-->
-        <div class="container">
-             
-            <!-- Contact -->
-            <section id="contact" class="section mb-4">
- 
-                <!--Section heading-->
-                <h1 class="text-center text-uppercase font-weight-bold mt-5 pt-4 mb-3 wow fadeIn" data-wow-delay="0.2s">Contact me</h1>
-                <!--Section description-->
-                <p class="text-center  text-uppercase font-weight-bold  wow fadeIn" data-wow-delay="0.2s">to get more information</p>
-                <div class="line wow fadeIn" data-wow-delay="0.2s"></div>
-                
-                <!--Section sescription-->
-                <p class="text-center w-responsive mx-auto my-5 pt-4 pb-3 wow fadeIn" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p>
+        </section>
+        <!-- Section: Products v.4 -->
 
-                <div class="row wow fadeIn" data-wow-delay="0.4s">
-
-                    <!--First column-->
-                    <div class="col-md-8 mb-5">
-                        <form>
-                            <!--First row-->
-                            <div class="row">
-                                <!--First column-->
-                                <div class="col-md-6">
-                                    <div class="md-form mb-0">
-                                        <input type="text" id="form41" class="form-control">
-                                        <label for="form41" class="">Your name</label>
-                                    </div>
-                                </div>
-
-                                <!--Second column-->
-                                <div class="col-md-6">
-                                    <div class="md-form mb-0">
-                                        <input type="text" id="form52" class="form-control">
-                                        <label for="form52" class="">Your email</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/.First row-->
-
-                            <!--Second row-->
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="md-form mb-0">
-                                        <input type="text" id="form51" class="form-control">
-                                        <label for="form51" class="">Subject</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/Second row-->
-
-                            <!--Third row-->
-                            <div class="row">
-                                <!--First column-->
-                                <div class="col-md-12">
-                                    <div class="md-form mb-0">
-                                        <textarea type="text" id="form76" class="md-textarea form-control" rows="3"></textarea>
-                                        <label for="form76">Your message</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/.Third row-->
-                        </form>
-
-                        <div class="text-center text-md-left mt-4">
-                            <a class="btn btn-outline-black"><strong>Send</strong></a>
-                        </div>
-                    </div>
-                    <!--.First column-->
-
-                    <!--Second column-->
-                    <div class="col-md-4">
-                        <ul class="contact-icons list-unstyled text-center">
-                            <li><i class="fa fa-map-marker fa-2x"></i>
-                                <p>New York, NY 10012, USA</p>
-                            </li>
-
-                            <li><i class="fa fa-phone fa-2x"></i>
-                                <p>+ 01 234 567 89</p>
-                            </li>
-
-                            <li><i class="fa fa-envelope fa-2x"></i>
-                                <p>contact@mdbootstrap.com</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--.Second column-->
-
-                </div>
-
-            </section>
-            <!--/Section: Contact v.2-->
-
-        </div>
-        <!--/Fourth container-->
+      </div>
 
     </main>
     <!--/Main layout-->
-   
-    <!-- Scrollspy -->
-    <div class="dotted-scrollspy clearfix d-none d-sm-block">
-        <ul class="nav smooth-scroll flex-column">
-            <li class="nav-item"><a class="nav-link" href="#home"><span></span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#about"><span></span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#services"><span></span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#portfolio"><span></span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact"><span></span></a></li>
-        </ul>
-    </div>
 
     <!--Footer-->
-    <footer class="page-footer text-center text-md-left mt-5  elegant-color-dark">
+    <footer class="page-footer text-center text-md-left pt-4">
 
-        <!--Footer Links-->
-        <div class="container mb-2">
+      <!--Footer Links-->
+      <div class="container-fluid">
+        <div class="row">
 
-            <!--First row-->
-            <div class="row">
+          <!--First column-->
+          <div class="col-md-3">
+            <h5 class="text-uppercase font-weight-bold mb-4 purple-text">Footer Content</h5>
+            <p>Here you can use rows and columns here to organize your footer content.</p>
+          </div>
+          <!--/.First column-->
 
-                <!--First column-->
-                <div class="col-md-12 my-4 wow fadeIn" data-wow-delay="0.3s">
+          <hr class="w-100 clearfix d-md-none">
 
-                    <div class="footer-socials flex-center">
+          <!--Second column-->
+          <div class="col-md-2 mx-auto">
+            <h5 class="text-uppercase font-weight-bold mb-4">Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#!">Link 1</a></li>
+              <li><a href="#!">Link 2</a></li>
+              <li><a href="#!">Link 3</a></li>
+              <li><a href="#!">Link 4</a></li>
+            </ul>
+          </div>
+          <!--/.Second column-->
 
-                        <!--Facebook-->
-                        <a type="button" class="btn-floating btn-secondary"><i class="fa fa-facebook"></i></a>
-                        <!--Twitter-->
-                        <a type="button" class="btn-floating btn-secondary"><i class="fa fa-twitter"></i></a>
-                        <!--Google +-->
-                        <a type="button" class="btn-floating btn-secondary"><i class="fa fa-google-plus"></i></a>
-                         <!--Youtube-->
-                        <a type="button" class="btn-floating btn-secondary"><i class="fa fa-youtube"></i></a>
-                        <!--Instagram-->
-                        <a type="button" class="btn-floating btn-secondary"><i class="fa fa-instagram"></i></a>
+          <hr class="w-100 clearfix d-md-none">
 
-                    </div>
-                </div>
-                <!--/First column-->
-            </div>
-            <!--/First row-->
+          <!--Third column-->
+          <div class="col-md-2 mx-auto">
+            <h5 class="text-uppercase font-weight-bold mb-4">Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#!">Link 1</a></li>
+              <li><a href="#!">Link 2</a></li>
+              <li><a href="#!">Link 3</a></li>
+              <li><a href="#!">Link 4</a></li>
+            </ul>
+          </div>
+          <!--/.Third column-->
+
+          <hr class="w-100 clearfix d-md-none">
+
+          <!--Fourth column-->
+          <div class="col-md-2 mx-auto">
+            <h5 class="text-uppercase font-weight-bold mb-4">Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#!">Link 1</a></li>
+              <li><a href="#!">Link 2</a></li>
+              <li><a href="#!">Link 3</a></li>
+              <li><a href="#!">Link 4</a></li>
+            </ul>
+          </div>
+          <!--/.Fourth column-->
 
         </div>
-        <!--/Footer Links-->
+      </div>
+      <!--/.Footer Links-->
 
-        <!--Copyright-->
-        <div class="footer-copyright py-3 text-center wow fadeIn " data-wow-delay="0.3s ">
-            <div class="container-fluid">
-                © 2018 Copyright: <a href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank"> MDBootstrap.com </a>
-            </div>
+      <hr>
+
+      <!--Call to action-->
+      <div class="call-to-action text-center my-4">
+        <ul class="list-unstyled list-inline">
+          <li class="list-inline-item">
+            <h5>Register for free</h5>
+          </li>
+          <li class="list-inline-item"><a href="" class="btn btn-primary">Sign up!</a></li>
+        </ul>
+      </div>
+      <!--/.Call to action-->
+
+      <hr>
+
+     <!--Social buttons-->
+    <div class="social-section text-center">
+      <ul class="list-unstyled list-inline">
+        <li class="list-inline-item"><a class="btn-floating btn-fb"><i class="fab fa-facebook-f"> </i></a></li>
+        <li class="list-inline-item"><a class="btn-floating btn-tw"><i class="fab fa-twitter"> </i></a></li>
+        <li class="list-inline-item"><a class="btn-floating btn-gplus"><i class="fab fa-google-plus-g"> </i></a></li>
+        <li class="list-inline-item"><a class="btn-floating btn-li"><i class="fab fa-linkedin-in"> </i></a></li>
+        <li class="list-inline-item"><a class="btn-floating btn-git"><i class="fab fa-github"> </i></a></li>
+      </ul>
+    </div>
+    <!--/.Social buttons-->
+
+      <!--Copyright-->
+      <div class="footer-copyright py-3 text-center">
+        <div class="container-fluid">
+          © 2018 Copyright: <a href="http://www.archangelliterature.com" target="_blank" class="text-secondary"> Arch
+            Angel Literature </a>
+
         </div>
-        <!--/Copyright-->
+      </div>
+      <!--/.Copyright-->
 
     </footer>
-    <!--/Footer-->
-    
+    <!--/.Footer-->
 
-    <!-- SCRIPTS -->
+        <!-- SCRIPTS -->
+        <!-- JQuery -->
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 
-    <!-- JQuery -->
-    <script type="text/javascript" src="https://mdbootstrap.com/previews/templates/portfolio/js/jquery-3.2.1.min.js"></script>
+        <!-- Tooltips -->
+        <script type="text/javascript" src="js/popper.min.js"></script>
 
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="https://mdbootstrap.com/previews/templates/portfolio/js/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="https://mdbootstrap.com/previews/templates/portfolio/js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="js/mdb.min.js"></script>
+        <script>
+            // SideNav Initialization
+            $(".button-collapse").sideNav();
 
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="https://mdbootstrap.com/previews/templates/portfolio/js/mdb.min.js"></script>
+            new WOW().init();
+        </script>
 
-    <script>
-         
-        //Animation init
-        new WOW().init();
-        
-        // initialize scrollspy
-        $('body').scrollspy({
-            target: '.dotted-scrollspy'
-        });
-
-        // initialize lightbox
-        $(function () {
-            $("#mdb-lightbox-ui").load("../mdb-addons/mdb-lightbox-ui.html");
-        });
-
-        $('.navbar-collapse a').click(function(){
-            $(".navbar-collapse").collapse('hide');
-        });
-    </script>
-
-</body>
+  </body>
 </html>
