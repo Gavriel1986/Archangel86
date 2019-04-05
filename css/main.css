@@ -1,9 +1,5 @@
 html {
-<<<<<<< HEAD
     font-size: 15px;
-=======
-    font-size: 10px;
->>>>>>> 8a80de50ef7580b970c3f1666eb8c4b4408b49af
 }
 
 @media only screen and (max-width: 400px) {
@@ -18,11 +14,7 @@ html, body {
 
 body {
     background: #111111;
-<<<<<<< HEAD
     font-family: "Montserrat";
-=======
-    font-family: "lora-regular", serif;
->>>>>>> 8a80de50ef7580b970c3f1666eb8c4b4408b49af
     font-size: 1.7rem;
     font-style: normal;
     font-weight: normal;
@@ -37,7 +29,7 @@ body {
  * ## links
  * ------------------------------------------------------------------- */
 a {
-    color: #0087cc;
+    color: #2575fc;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -2147,12 +2139,8 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-<<<<<<< HEAD
     background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
 
-=======
-    background-color: #00a5ff;
->>>>>>> 8a80de50ef7580b970c3f1666eb8c4b4408b49af
     color: #010507;
     position: relative;
 }
@@ -2684,7 +2672,9 @@ html.no-csstransitions .home-content__main {
 .s-clients {
     padding-top: 16.2rem;
     padding-bottom: 16.8rem;
-    background-color: #e6e6e6;
+    /* background-color: #e6e6e6; */
+    background-color: #000000;
+    /* background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%); */
     color: #757575;
     position: relative;
 }
@@ -2743,7 +2733,8 @@ html.no-csstransitions .home-content__main {
 }
 
 .clients-testimonials .testimonials p {
-    font-family: "lora-regular", serif;
+    font-family: "Montserrat",
+    serif;
     font-size: 3rem;
     line-height: 1.8;
     color: #555555;
@@ -2772,7 +2763,8 @@ html.no-csstransitions .home-content__main {
 }
 
 .clients-testimonials .testimonials__pos {
-    font-family: "montserrat-light", sans-serif;
+    font-family: "Montserrat",
+    sans-serif;
     font-size: 1.4rem;
 }
 
@@ -2885,8 +2877,8 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-contact {
     background-color: #151515;
-    background-size: 20%;
-    background-image: url("/images/bomber.png");
+    background-size: 100%;
+    background-image: url("https://i.pinimg.com/originals/f9/13/cd/f913cd36f521236e07094fb78320e6a7.png");
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 15rem;
@@ -2916,7 +2908,8 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-contact .form-field label {
-    font-family: "montserrat-light", sans-serif;
+    font-family: "Montserrat",
+    sans-serif;
     font-size: 1rem;
     line-height: 2.4rem;
     position: absolute;
@@ -2958,7 +2951,8 @@ html.no-csstransitions .home-content__main {
     color: rgba(255, 255, 255, 0.4);
     padding-top: 6rem;
     padding-bottom: 6rem;
-    font-family: "montserrat-light", sans-serif;
+    font-family: "Montserrat",
+    sans-serif;
     font-size: 1.5rem;
     line-height: 2;
     position: relative;
@@ -3136,7 +3130,8 @@ html.no-csstransitions .home-content__main {
 
 .submit-loader .text-loader {
     display: none;
-    font-family: "montserrat-regular", sans-serif;
+    font-family: "Montserrat",
+    sans-serif;
     font-size: 1.3rem;
     font-weight: bold;
     line-height: 1.846;
@@ -3285,7 +3280,8 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 footer {
     padding: 9rem 0 6rem;
-    font-family: "montserrat-light", sans-serif;
+    font-family: "Montserrat",
+    sans-serif;
     font-size: 15px;
     line-height: 2;
     text-align: center;
@@ -3336,7 +3332,7 @@ footer .row {
     border: none;
     width: 85px;
     height: 28px;
-    background: url("../images/logo-footer.png") no-repeat center;
+    background: url("/images/chenzira.jpg") no-repeat center;
     background-size: 85px 28px;
     font: 0/0 a;
     text-shadow: none;
