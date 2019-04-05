@@ -1,4 +1,4 @@
-.footer-text {
+/* .footer-text {
     font-family: 'Berkshire Swash',
     cursive;
     font-size: 1.5rem;
@@ -6,9 +6,9 @@
     color: white !important;
     text-shadow: 1px 1px 0px purple,
     4px 4px 0px rgba(0, 0, 0, 0.15);
-}
+} */
 
-.header-text {
+/* .header-text {
     font-family: 'Berkshire Swash',
     cursive;
     font-size: 1.5rem;
@@ -26,10 +26,10 @@
     color: black !important;
     text-shadow: 1px 1px 0px purple,
     4px 4px 0px rgba(0, 0, 0, 0.15);
-}
-.side-nav .logo-wrapper, .side-nav .logo-wrapper a {
+} */
+/* .side-nav .logo-wrapper, .side-nav .logo-wrapper a {
     height: 140px !important;
-}
+} */
 
 .ml2 {
     font-family: 'Berkshire Swash',
@@ -43,4 +43,9 @@
 .ml2 .letter {
     display: inline-block;
     line-height: 1em;
+}
+
+.ml3 {
+    font-weight: 900;
+    font-size: 3.5em;
 }
