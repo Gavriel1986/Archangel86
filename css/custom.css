@@ -1,14 +1,26 @@
+<<<<<<< HEAD
 .footer-text {
     font-family: 'Ubuntu';
+=======
+/* .footer-text {
+    font-family: 'Berkshire Swash',
+    cursive;
+>>>>>>> 8a80de50ef7580b970c3f1666eb8c4b4408b49af
     font-size: 1.5rem;
     font-weight: 900;
     color: white !important;
     text-shadow: 1px 1px 0px purple,
     4px 4px 0px rgba(0, 0, 0, 0.15);
-}
+} */
 
+<<<<<<< HEAD
 .header-text {
     font-family: 'Ubuntu';
+=======
+/* .header-text {
+    font-family: 'Berkshire Swash',
+    cursive;
+>>>>>>> 8a80de50ef7580b970c3f1666eb8c4b4408b49af
     font-size: 1.5rem;
     font-weight: 900;
     color: white !important;
@@ -23,10 +35,17 @@
     color: black !important;
     text-shadow: 1px 1px 0px purple,
     4px 4px 0px rgba(0, 0, 0, 0.15);
+<<<<<<< HEAD
 } 
 .side-nav .logo-wrapper, .side-nav .logo-wrapper a {
     height: 140px !important;
 } 
+=======
+} */
+/* .side-nav .logo-wrapper, .side-nav .logo-wrapper a {
+    height: 140px !important;
+} */
+>>>>>>> 8a80de50ef7580b970c3f1666eb8c4b4408b49af
 
 .ml2 {
     font-family: 'Ubuntu Mono';
@@ -45,6 +64,7 @@
     font-weight: 900;
     font-size: 3.5em;
 }
+<<<<<<< HEAD
 .israel-img {
     width: 100%;
     height: 813px;
@@ -53,4 +73,10 @@
 .blue-grad-bg {
     background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
 
+=======
+
+.israel-pics {
+    width: 100%;
+    height: 813px;
+>>>>>>> 8a80de50ef7580b970c3f1666eb8c4b4408b49af
 }
